@@ -1,0 +1,173 @@
+<!DOCTYPE html>
+<html lang="pl">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Wiktoria Bud - Profesjonalne Usługi</title>
+    <style>
+        /* Reset */
+        * { margin: 0; padding: 0; box-sizing: border-box; }
+
+        body {
+            font-family: 'Segoe UI', sans-serif;
+            line-height: 1.6;
+            color: #333;
+            background-color: #fafafa;
+        }
+
+        header {
+            background: #0a84ff;
+            color: white;
+            padding: 1.5rem 0;
+            text-align: center;
+        }
+                }
+
+        header h1 {
+            font-size: 2rem;
+            letter-spacing: 1px;
+        }
+
+        nav {
+            background: #004f9e;
+            text-align: center;
+            padding: 0.5rem 0;
+        }
+
+        nav a {
+            color: white;
+            margin: 0 15px;
+            text-decoration: none;
+            font-weight: 500;
+        }
+
+        nav a:hover {
+            text-decoration: underline;
+        }
+
+        section {
+            padding: 2rem 10%;
+        }
+
+        .about, .services, .team, .contact {
+            background: white;
+            margin: 1rem 0;
+            border-radius: 10px;
+            padding: 2rem;
+            box-shadow: 0 2px 8px rgba(0,0,0,0.1);
+        }
+
+        .services ul {
+            list-style: none;
+        }
+
+        .services li {
+            background: #f1f1f1;
+            margin: 0.5rem 0;
+            padding: 0.75rem;
+            border-radius: 6px;
+        }
+
+        .team-members {
+            display: flex;
+            flex-wrap: wrap;
+            gap: 1.5rem;
+            justify-content: center;
+        }
+
+        .member {
+            background: #f5f5f5;
+            padding: 1rem;
+            border-radius: 10px;
+            width: 220px;
+            text-align: center;
+            box-shadow: 0 2px 6px rgba(0,0,0,0.1);
+        }
+
+        .member img {
+            width: 100px;
+            height: 100px;
+            border-radius: 50%;
+            margin-bottom: 0.5rem;
+        }
+
+        footer {
+            background: #004f9e;
+            color: white;
+            text-align: center;
+            padding: 1rem 0;
+            margin-top: 2rem;
+        }
+
+        @media (max-width: 768px) {
+            section { padding: 1.5rem 5%; }
+            .team-members { flex-direction: column; align-items: center; }
+        }
+    </style>
+</head>
+<body>
+
+<header>
+    <h1>Wiktoria bud</h1>
+    <p>Profesjonalne rozwiązania dla teojego remontu</p>
+</header>
+
+<nav>
+    <a href="#about">O nas</a>
+    <a href="#services">Usługi</a>
+    <a href="#team">Zespół</a>
+    <a href="#contact">Kontakt</a>
+</nav>
+
+<section id="about" class="about">
+    <h2>O nas</h2>
+    <p>
+        Jesteśmy firmą z wieloletnim doświadczeniem w branży. Naszą misją jest dostarczanie
+        najwyższej jakości usług, dopasowanych do indywidualnych potrzeb naszych klientów.
+    </p>
+</section>
+
+<section id="services" class="services">
+    <h2>Nasze usługi</h2>
+    <ul>
+        <li>Płytka w mieszkaniu najwyżsxej</li>
+        <li>Projektowanie stron internetowych</li>
+        <li>Marketing online i social media</li>
+        <li>Outsourcing IT i wsparcie techniczne</li>
+    </ul>
+</section>
+
+<section id="team" class="team">
+    <h2>Nasz zespół</h2>
+    <div class="team-members">
+        <div class="member">
+            <img src="https://via.placeholder.com/100" alt='Kto to'>
+            <h3>Kto to</h3>
+            <p>CEO / Założyciel</p>
+        </div>
+        <div class="member">
+            <img src="https://via.placeholder.com/100" alt="Kto to">
+            <h3>Kto to</h3>
+            <p>Specjalistka ds. marketingu</p>
+        </div>
+        <div class="member">
+            <img src="https://via.placeholder.com/100" alt="Kto to">
+            <h3>Kto to</h3>
+            <p>Web Developer</p>
+        </div>
+    </div>
+</section>
+
+<section id="contact" class="contact">
+    <h2>Kontakt</h2>
+    <p>📍 Adres: ul. Przykładowa 10, 00-000 Wrocław</p>
+    <p>📞 Telefon: +48 123 456 789</p>
+    <p>✉️ E-mail: kontakt@twojafirma.pl</p>
+</section>
+
+<footer>
+    <p>&copy; 2025 Twoja Firma. Wszelkie prawa zastrzeżone.</p>
+</footer>
+
+</body>
+</html>
